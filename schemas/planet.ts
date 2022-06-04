@@ -1,4 +1,4 @@
-interface IPlanet {
+interface Planet {
   id?: string
   name: string
   image: string
@@ -6,4 +6,4 @@ interface IPlanet {
   orbitRadius: number
 }
 
-export default IPlanet
+export default Planet

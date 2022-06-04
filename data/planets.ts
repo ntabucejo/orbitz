@@ -1,7 +1,7 @@
 import cuid from 'cuid'
-import IPlanet from '../schemas/interfaces/planet'
+import Planet from '../schemas/planet'
 
-class CreatePlanet implements IPlanet {
+class CreatePlanet implements Planet {
   id: string
   name: string
   image: string
@@ -16,7 +16,7 @@ class CreatePlanet implements IPlanet {
   }
 }
 
-const planets: IPlanet[] = [
+const planets: Planet[] = [
   {
     ...new CreatePlanet(cuid(), 'mercury', '/images/mercury.png', 6, 14),
   },
