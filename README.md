@@ -1,6 +1,6 @@
 # Orbitz
 
-A responsive website of a solar system to visualize and simulate the [Orbitz](https://orbitz.ntabucejo.vercel.app/) in 2D.
+A responsive website of a solar system to visualize and simulate the [Orbitz](https://orbitz.ntabucejo.vercel.app/) in 2D!
 
 ## Strategies 
 
